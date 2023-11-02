@@ -1,0 +1,35 @@
+@import url("stylemedia.css");
+
+body{
+    background-image: src:"../";
+}
+.logo{
+    height: 40px;
+    margin-top: 20px;
+
+}
+
+.navbar{
+    float: right;
+    position: absolute;
+    height: 16vh;
+    width: 100%;
+}
+.nav-item{
+    font-size: 12px;
+}
+h1,
+h2{
+    color:white;
+}
+
+.logo img {
+    width: 10%;
+    padding-left: 30px;
+}
+
+    .carousel-inner img{
+        padding-left: 5%;
+        width: 96%;
+    }
+
