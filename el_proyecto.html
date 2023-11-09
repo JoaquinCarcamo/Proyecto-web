@@ -5,98 +5,93 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Section-Carcamo</title>
+    <title>Yaco FS</title>
 </head>
 
 <body>
+<header>
 
-<header class="cabezal">
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-sm  bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="index.html"><img src="assets/img/Logoblancoyaco.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse col-3" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
 
-        <div class="logo">
-            <img src="assets/img/logonegroyaco.png" alt="Logo">
-        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
+                    </li>
 
-        <div class="collapse navbar-collapse" id="opciones">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="galeria.html">Galeria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="el_proyecto.html">El Proyecto</a>
-                </li>
-            </ul>
+                </ul>
+            </div>
         </div>
     </nav>
 </header>
 
-<section id="parte2">
+
+<section class="objetivo" id="section1">
     <div class="container-fluid">
         <div class="row">
-            <div class="imagen">
-                <div class="accordion">
-                    <img src="assets/img/parte2.jpg" alt="Imagen Parte 2">
-                    <div class="overlay">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        El proyecto.
+            <img src="assets/img/parte2.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center cont-slider" >
+                        <div class="accordion" style="top: 50vh;" id="accordionExample1">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                                        El objetivo
                                     </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
-                                    Esto es basado principalmente en algo recreativo, sin fines de lucro y donde todos puedan tener la posibilidad de tener fotos de sus vehiculos con buena calidad.
-                                </div>
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Sobre Mi
-                                            </button>
-                                        </h5>
-                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                            <div class="card-body">
-                                                Soy un joven de 19 años, soy proveniente de la ciudad de Ancud, y me encuentro estudiando la carrera de Técnico Universitario en informática
-                                            </div>
-                                        </div>
-
+                                </h2>
+                                <div id="collapseOne1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
+                                    <div class="accordion-body">
+                                        Esto es basado principalmente en algo recreativo, sin fines de lucro y donde todos puedan tener la posibilidad de tener fotos de sus vehiculos con buena calidad.
                                     </div>
                                 </div>
-
-                                <div class="card">
-                                    <div class="card-header" id="headingThree">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
-                                                Horarios y Costos
-                                            </button>
-                                        </h5>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                            <div class="card-body">
-                                                Sobre horarios, estoy disponible generalmente los fines de semana, por lo cual dedico estos dias a la toma de fotografias, mientras que en precios, estos son definidos por la movilización que tenga que realizar.
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
                             </div>
                         </div>
-
-
                     </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="full-height" id="section2">
+    <div class="container-fluid">
+        <div class="row">
+            <img src="assets/img/3foto.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center cont-slider" >
+                        <div class="accordion" style= "top: 150vh;" id="accordionExample2">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                        Horarios y Costos
+                                    </button>
+                                </h2>
+                                <div id="collapseOne2" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Sobre horarios, estoy disponible generalmente los fines de semana, por lo cual dedico estos dias a la toma de fotografias, mientras que en precios, estos son definidos por la movilización que tenga que realizar.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -104,7 +99,27 @@
 
 </section>
 
-    <link href="assets/js/bootstrap/js/bootstrap.bundle.min.js">
+<footer>
+    <div class="container-fluid bg-dark p-4 text-center justify-content-center align-items-center">
+        <div class="row">
+            <div class="logo2 col-md-4"><img src="assets/img/Logoblancoyaco.png"></div>
+            <div class="col-md-4"> <a href="https://www.facebook.com/profile.php?id=61551386461995" class="footer-link" id="Facebook">
+                <img src="assets/img/logofacebook.png">
+            </a>
+                <a href="https://www.instagram.com/yaco_fs/" class="footer-link" id="instagram">
+                    <img src="assets/img/logoinstagram.png">
+                </a>
+                <a href="https://wa.me/56978817040" class="footer-link" id="Whatsapp">
+                    <img src="assets/img/logowhatsapp.png">
+                </a>
+            </div>
+            <div class=" col-md-4" style="color: white; font-size: 10px"><p> &copy; 2023. Joaquín Cárcamo</p></div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

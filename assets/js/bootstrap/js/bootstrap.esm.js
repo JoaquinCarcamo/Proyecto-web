@@ -4444,4 +4444,4 @@ enableDismissTrigger(Toast);
 defineJQueryPlugin(Toast);
 
 export { Alert, Button, Carousel, Collapse, Dropdown, Modal, Offcanvas, Popover, ScrollSpy, Tab, Toast, Tooltip };
-//# sourceMappingURL=bootstrap4.esm.js.map
+//# sourceMappingURL=bootstrap5.esm.js.map
